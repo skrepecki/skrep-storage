@@ -63,8 +63,8 @@ const YOUTUBE_ARRAY = [
 window.onload = function(){ insertPlayerInPage(); }
 
 function insertPlayerInPage(){
-        let musicHtml = `<img src="https://skrepecki.github.io/skrepecki/public/wordpress/img/play.png" alt="semen skrepeckiy" width="55px" id="imgClickPlay">
-                         <img src="https://skrepecki.github.io/skrepecki/public/wordpress/img/stop.png" alt="semen skrepeckiy" width="55px" id="imgClickStop" style="display:none;">
+        let musicHtml = `<img src="https://skrepecki.github.io/skrepecki/public/wordpress/img/play.png" alt="семен скрепецкий" width="55px" id="imgClickPlay">
+                         <img src="https://skrepecki.github.io/skrepecki/public/wordpress/img/stop.png" alt="скрепоносный бузотер" width="55px" id="imgClickStop" style="display:none;">
                          <style>
                             #imgClickPlay{
                                 position: fixed;
