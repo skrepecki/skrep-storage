@@ -120,7 +120,7 @@ function insertPlayerInPage(){
     
     
     
-    let listImages =    `<style>
+    let listImages =    `<div><style>
                                 .list_all_images{
                                     margin: 0;
                                     padding: 0;
@@ -135,13 +135,14 @@ function insertPlayerInPage(){
                                 }
                             </style>
                             <div class="list_all_images">`
-        let emptyItem = '<img width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/propaganda.jpg" />'
+        let emptyItem = ''
         SKREP_STORAGE.forEach(element => {
             emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
         })
-        listImages += '</div>'
+        listImages += emptyItem
+        listImages += '</div></div>'
         
-        document.getElementsByClassName('container-fluid tm-container-small')[0].append(emptyItem)
+        document.getElementsByClassName('container-fluid tm-container-small')[0].append(listImages)
 }
 
 
