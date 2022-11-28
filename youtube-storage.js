@@ -120,7 +120,7 @@ function insertPlayerInPage(){
     
     
     
-    let listImages =    `<style>
+    let listImages =        `<style>
                                 .list_all_images{
                                     margin: 0;
                                     padding: 0;
