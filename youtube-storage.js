@@ -141,7 +141,6 @@ function insertPlayerInPage(){
         })
         listImages += emptyItem
         listImages += '</div>'
-        
         miDiv = document.createElement('div')
         miDiv.innerHTML = listImages
         document.body.appendChild(miDiv)
