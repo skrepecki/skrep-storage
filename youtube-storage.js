@@ -120,7 +120,7 @@ function insertPlayerInPage(){
     
     
     
-    let listImages =    `<div><style>
+    let listImages =    `<style>
                                 .list_all_images{
                                     margin: 0;
                                     padding: 0;
@@ -140,9 +140,12 @@ function insertPlayerInPage(){
             emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
         })
         listImages += emptyItem
-        listImages += '</div></div>'
+        listImages += '</div>'
         
-        document.getElementsByClassName('container-fluid tm-container-small')[0].append(listImages)
+        miDiv = document.createElement('div')
+        miDiv.innerHTML = listImages
+        document.body.appendChild(miDiv)
+        
 }
 
 
