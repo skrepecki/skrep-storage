@@ -60,7 +60,36 @@ const YOUTUBE_ARRAY = [
         })
 
 
-window.onload = function(){ insertPlayerInPage(); }
+window.onload = function(){ insertListAllImages(); insertPlayerInPage(); }
+
+
+function insertListAllImages(){
+ let listImages =        `<style>
+                                .list_all_images{
+                                    margin: 0;
+                                    padding: 0;
+                                    text-align: center;
+                                }
+                                .list_images_more{
+                                    width : 111px;
+                                    height: 111px;
+                                    margin: 0;
+                                    margin-top: -5px;
+                                    padding: 0;
+                                }
+                            </style>
+                            <div class="list_all_images">`
+        let emptyItem = ''
+        SKREP_STORAGE.forEach(element => {
+            emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
+        })
+        listImages += emptyItem
+        listImages += '</div>'
+        miDiv = document.createElement('div')
+        miDiv.innerHTML = listImages
+        document.body.appendChild(miDiv)
+}
+
 
 function insertPlayerInPage(){
         let musicHtml = `<img src="https://skrepecki.github.io/skrepecki/public/wordpress/img/play.png" alt="семен скрепецкий" width="55px" id="imgClickPlay">
@@ -94,57 +123,7 @@ function insertPlayerInPage(){
                 document.getElementById('imgClickPlay').style.display = 'block'
                 miAudioPlayer.pause()
                 miAudioPlayer = null
-        })
-    
-    
-        
-                firebase.auth()
-                firebase.database()
-                firebase.firestore()
-                firebase.functions()
-                firebase.messaging()
-                firebase.storage()
-                firebase.analytics()
-                firebase.analytics().logEvent('tutorial_completed');
-                firebase.performance()
-                console.log('firebase semen skrepeckiy - SEMEN SCREPECKI SKREPECKIY IMAGE', firebase)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    let listImages =        `<style>
-                                .list_all_images{
-                                    margin: 0;
-                                    padding: 0;
-                                    text-align: center;
-                                }
-                                .list_images_more{
-                                    width : 111px;
-                                    height: 111px;
-                                    margin: 0;
-                                    margin-top: -5px;
-                                    padding: 0;
-                                }
-                            </style>
-                            <div class="list_all_images">`
-        let emptyItem = ''
-        SKREP_STORAGE.forEach(element => {
-            emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
-        })
-        listImages += emptyItem
-        listImages += '</div>'
-        miDiv = document.createElement('div')
-        miDiv.innerHTML = listImages
-        document.body.appendChild(miDiv)
-        
+        }) 
 }
 
 
