@@ -137,7 +137,7 @@ function insertPlayerInPage(){
                             <div class="list_all_images">`
         let emptyItem = ''
         SKREP_STORAGE.forEach(element => {
-            emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
+            emptyItem += '<img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" />'
         })
         listImages += emptyItem
         listImages += '</div>'
