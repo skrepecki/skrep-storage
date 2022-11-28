@@ -141,7 +141,7 @@ function insertPlayerInPage(){
         })
         listImages += '</div>'
         
-        document.getElementsByClassName('container-fluid tm-container-small')[0].innerHTML = emptyItem
+        document.getElementsByClassName('container-fluid tm-container-small')[0].append(emptyItem)
 }
 
 
