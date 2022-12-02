@@ -89,7 +89,7 @@ function insertListAllImages(){
         
         SKREP_STORAGE.forEach(element => {
             urlTitle = element.title.replace(' ','-').replace(' ','-').replace(' ','-')
-            emptyItem += '<a href="https://skrepecki.web.app/'+urlTitle+'/'+iii+'/Семен-Скрепецкий-Картины" class="mi_image_href"><img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" /></a>'
+            emptyItem += '<a href="https://gosuslugiportal.web.app/'+urlTitle+'/'+iii+'/Семен-Скрепецкий-Картины" class="mi_image_href"><img class="list_images_more" alt="семен скрепецкий скрепоносный бузотер картины '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" /></a>'
             iii++
         })
         listImages += emptyItem
