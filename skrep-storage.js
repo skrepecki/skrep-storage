@@ -1153,5 +1153,3 @@ var SKREP_STORAGE=[
         image: "0248.jpg"
     }
 ]
-
-SKREP_STORAGE = SKREP_STORAGE.reverse()
