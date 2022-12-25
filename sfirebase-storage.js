@@ -4,7 +4,7 @@ const streamHosting = [
         'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/video-piontkovski.mp4'
     ],
     [
-        '',
+        'Пионтковский',
         'https://drive.google.com/file/d/1gyGq08vTVsutH0I_K9FmZGa8sRpeKAaB/view'
     ],[
         'Невзоров, Гудков, Навальный',
