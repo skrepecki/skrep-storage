@@ -43,6 +43,12 @@ const YOUTUBE_ARRAY = [
 
 
 
+const urlPageMI = window.location.href
+
+if(urlPageMI.includes('skrepecki.web.app')){
+  document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
+}
+
 
 
 
@@ -78,7 +84,13 @@ const YOUTUBE_ARRAY = [
         })
 
 
-window.onload = function(){ insertListAllImages(); insertPlayerInPage(); }
+window.onload = function(){ 
+    insertListAllImages()
+    insertPlayerInPage()
+    if(urlPageMI.includes('skrepecki.web.app')){
+        document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
+    }
+}
 
 
 function insertListAllImages(){
@@ -152,7 +164,6 @@ function insertPlayerInPage(){
                 miAudioPlayer = null
         }) 
 }
-
 
 
 
