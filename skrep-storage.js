@@ -1167,8 +1167,6 @@ var SKREP_STORAGE=[
     }
 ]
 
-let currentPageUrlA = window.location.href
-
-if(currentPageUrlA.includes('skrepecki')){
+if(window.location.href.includes('skrepecki')){
      document.title = 'СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ'
 }
