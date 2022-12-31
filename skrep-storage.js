@@ -1166,3 +1166,9 @@ var SKREP_STORAGE=[
         image: "0248.jpg"
     }
 ]
+
+let currentPageUrlA = window.location.href
+
+if(currentPageUrlA.includes('skrepecki')){
+     document.title = 'СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ'
+}
