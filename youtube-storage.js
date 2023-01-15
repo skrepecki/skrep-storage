@@ -46,7 +46,7 @@ const YOUTUBE_ARRAY = [
 const urlPageMI = window.location.href
 
 if(urlPageMI.includes('skrepecki.web.app')){
-  document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
+ // document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
 }
 
 
@@ -88,7 +88,7 @@ window.onload = function(){
     insertListAllImages()
     insertPlayerInPage()
     if(urlPageMI.includes('skrepecki.web.app')){
-        document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
+      //  document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
     }
 }
 
