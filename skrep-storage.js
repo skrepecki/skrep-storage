@@ -1211,6 +1211,4 @@ var SKREP_STORAGE=[
     }
 ]
 
-if(window.location.href.includes('skrepecki')){
-     document.title = 'СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ'
-}
+SKREP_STORAGE = SKREP_STORAGE.reverse()
