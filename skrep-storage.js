@@ -1,4 +1,9 @@
-var SKREP_STORAGE = [  
+var SKREP_STORAGE = [  cheburashka.jpg
+    {
+        title: 'Неизвестный науке ZVерь',
+        description: `"Неизвестный науке ZVерь." Семён Скрепецкий. Живопись, масло, холст. 60/40см`,
+        image: 'cheburashka.jpg'
+    },
     {
         title: 'руски скот',
         description: `Когда хорошие руские врут что руский нарот против войны, они показывают такие видео. И что мы видим? <br><br>
