@@ -1,4 +1,4 @@
-var SKREP_STORAGE = [  cheburashka.jpg
+var SKREP_STORAGE = [  
     {
         title: 'Неизвестный науке ZVерь',
         description: `"Неизвестный науке ZVерь." Семён Скрепецкий. Живопись, масло, холст. 60/40см`,
