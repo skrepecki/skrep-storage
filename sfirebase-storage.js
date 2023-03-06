@@ -1,6 +1,6 @@
 const streamHosting = [
     [
-        'Пионтковский',
+        'Пионтковский ФЕЙГИН LIVE Mark Feigin',
         'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/feg.mp4'
     ],[
         'Пионтковский',
