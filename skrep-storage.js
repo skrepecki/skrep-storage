@@ -1,4 +1,9 @@
 var SKREP_STORAGE = [  
+     {
+        title: 'rotation',
+        description: `rotation`,
+        image: 'rotation.jpg'
+    },
     {
         title: 'Зелёный слон',
         description: `Зелёный слон психоделического Эпифанцева`,
