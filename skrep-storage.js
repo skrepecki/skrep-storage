@@ -1,5 +1,15 @@
 var SKREP_STORAGE = [  
      {
+        title: 'Марк Фейгин',
+        description: `Марк Фейгин спаситель мусульман`,
+        image: 'markfeiginimages.jpg'
+    },
+     {
+        title: 'Адам и Ева',
+        description: `Адам и Ева вкушают круглые плоды ,дающие познания сути вещей`,
+        image: 'Adam-i-Eva-vkushajut-kruglye-plody-dajushhie-poznaniya-suti-veshhej.jpg'
+    },
+     {
         title: 'rotation',
         description: `rotation`,
         image: 'rotation.jpg'
