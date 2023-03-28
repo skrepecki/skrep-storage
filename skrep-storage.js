@@ -1,5 +1,12 @@
 var SKREP_STORAGE = [  
      {
+        title: 'советский союз 2.0',
+        description: `"С Китаем дружить будем! Построим советский союз!". 
+                       Семён Скрепецкий. Живопись, масло, холст. 60/40 см.
+                       "We will be friends with China! Let's build the Soviet Union!" Semyon Skrepetsky. Painting, oil, canvas. 60/40 cm.`,
+        image: 'china-friend.jpg'
+    },
+     {
         title: 'Марк Фейгин',
         description: `Марк Фейгин спаситель мусульман`,
         image: 'markfeiginimages.jpg'
