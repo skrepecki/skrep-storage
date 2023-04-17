@@ -1,4 +1,14 @@
 var SKREP_STORAGE = [  
+      {
+        title: 'В рамках дозволенного',
+        description: `В рамках дозволенного`,
+        image: 'V-ramkah-dozvolennogo.jpg'
+      },
+      {
+        title: 'Свинина по пекински',
+        description: `Свинина по пекински`,
+        image: 'Svinina-po-pekinski-Semjon-Skrepeckij.jpg'
+     },
      {
         title: 'советский союз 2.0',
         description: `"С Китаем дружить будем! Построим советский союз!". 
