@@ -1,4 +1,9 @@
-var SKREP_STORAGE = [  
+var SKREP_STORAGE = [   skot.jpg
+      {
+        title: 'Этот ебаный скот бездонно туп',
+        description: `Этот ебаный скот бездонно туп`,
+        image: 'skot.jpg'
+      },
       {
         title: 'В рамках дозволенного',
         description: `В рамках дозволенного`,
