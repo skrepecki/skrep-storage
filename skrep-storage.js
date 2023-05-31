@@ -1,4 +1,29 @@
-var SKREP_STORAGE = [  
+var SKREP_STORAGE = [ 
+      {
+        title: '"Учитель"',
+        description: `"Учитель"`,
+        image: 'Uchitel_(1).jpg'
+      },
+      {
+        title: '"Рассвет" | "Dawn"',
+        description: `"Рассвет" | "Dawn"`,
+        image: 'Probuzhdenie.jpg'
+      },
+      {
+        title: '"Пробуждение"',
+        description: `"Пробуждение"`,
+        image: 'Rassvet-Dawn-Semjon-SkrepeckijZhivopis-maslo-holst-Semyon-Skrepetsky.-Painting-oil-on-canvas.-60x80-cm.jpg'
+      },
+      {
+        title: 'Цели спецоперации достигнуты!',
+        description: `Цели спецоперации достигнуты!`,
+        image: 'Celi-specoperacii-dostignuty.jpg'
+      },
+      {
+        title: 'Грибы отпустите меня',
+        description: `Грибы отпустите меня`,
+        image: 'Griby-otpustite-menya.jpg'
+      },
       {
         title: 'Этот ебаный скот бездонно туп',
         description: `Этот ебаный скот бездонно туп`,
