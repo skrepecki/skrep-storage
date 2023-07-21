@@ -5,7 +5,7 @@ var SKREP_STORAGE = [
         image: 'где трусы.jpg'
       },
       {
-        title: '"кнут перчёный в спину Пидора',
+        title: '"кнут перчёный в спину Пидора"',
         description: `"Словно кнут перчёный в спину Пидора ... Пушкин в Михайловском." Семён Скрепецкий Живопись. Масло, холст. 110/80 см.`,
         image: 'Slovno-knut-perchjonyj-v-spinu-Sidora-.-Pushkin-v-Mihajlovskom.jpg'
       },
