@@ -93,48 +93,10 @@ if(urlPageMI.includes('skrepecki.web.app')){
 
 
 window.onload = function(){ 
-    insertListAllImages()
     insertPlayerInPage()
     if(urlPageMI.includes('skrepecki.web.app')){
       //  document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
     }
-}
-
-
-function insertListAllImages(){
- let listImages =        `<style>
-                                .list_all_images{
-                                    margin: 0;
-                                    padding: 0;
-                                    text-align: center;
-                                }
-                                .list_images_more{
-                                    width : 111px;
-                                    height: 111px;
-                                    margin: 0;
-                                    margin-top: -5px;
-                                    padding: 0;
-                                }
-                                .mi_image_href{
-                                    margin: 0;
-                                    padding: 0;
-                                }
-                            </style>
-                            <div class="list_all_images">`
-        let emptyItem = ''
-        let iii = 0
-        let urlTitle = ''
-        
-        SKREP_STORAGE.forEach(element => {
-            urlTitle = element.title.replace(' ','-').replace(' ','-').replace(' ','-')
-            emptyItem += '<a href="https://gosuslugiportal.web.app/'+urlTitle+'/'+iii+'/gosuslugi" class="mi_image_href"><img class="list_images_more" alt="ГОСУСЛУГИ '+element.title+'" width="111px" height="111px" src="https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/'+element.image+'" /></a>'
-            iii++
-        })
-        listImages += emptyItem
-        listImages += '</div>'
-        miDiv = document.createElement('div')
-        miDiv.innerHTML = listImages
-        document.body.appendChild(miDiv)
 }
 
 
