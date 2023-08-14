@@ -7,7 +7,7 @@ const streamHosting = [
         'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/video-piontkovski.mp4'
     ],[
         'Пионтковский',
-        'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/video-piontkovski.mp4'
+        'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/joroshie-russkie.mp4'
     ],[
         'Пионтковский',
         'https://skrepecki.github.io/skrepecki/public/wordpress/skrep-img/video-piontkovski.mp4'
