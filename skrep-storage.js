@@ -1,5 +1,10 @@
 var SKREP_STORAGE = [
       {
+        title: 'Пока бомбят Одессу',
+        description: `Семён Скрепецкий, живопись, масло, холст .110/70см. Пока русская армия бомбит Украину, ровняя с землёй мирные дома, украинское телевидение, 24/7 показывает хороших русских, которые рассказывают про прекрасную россию будущего и про войну одного путина.`,
+        image: 'poca-bombyat-odessu.png'
+      },
+      {
         title: 'Картофельный пюрер',
         description: `" Картофельный пюрер" Живопись, масло, холст 60/50 см. Семён Скрепецкий. Александр Лукашенко - беларуский фюрер с запахом картофельных очисток. На протяжении 30 лет пытается быть Гитлером и Сталиным одновременно, при этом невыносимо воняет гнилой картошкой. "Potato Pureer" Painting, oil, canvas 60/50 cm. Semyon Skrepetsky. Alexander Lukashenko is a Belarusian Fuhrer with the smell of potato peelings. For 30 years he has been trying to be Hitler and Stalin at the same time, while unbearably stinks of rotte`,
         image: 'пюрер.jpg'
