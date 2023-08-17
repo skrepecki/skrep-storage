@@ -10,6 +10,11 @@ var SKREP_STORAGE = [
         image: 'poca-bombyat-odessu.png'
       },
       {
+        title: 'моя попуська',
+        description: `моя попуська`,
+        image: 'pop-down.jpg'
+      },
+      {
         title: 'Картофельный пюрер',
         description: `" Картофельный пюрер" Живопись, масло, холст 60/50 см. Семён Скрепецкий. Александр Лукашенко - беларуский фюрер с запахом картофельных очисток. На протяжении 30 лет пытается быть Гитлером и Сталиным одновременно, при этом невыносимо воняет гнилой картошкой. "Potato Pureer" Painting, oil, canvas 60/50 cm. Semyon Skrepetsky. Alexander Lukashenko is a Belarusian Fuhrer with the smell of potato peelings. For 30 years he has been trying to be Hitler and Stalin at the same time, while unbearably stinks of rotte`,
         image: 'пюрер.jpg'
