@@ -1,6 +1,7 @@
 const YOUTUBE_ARRAY = [
-  'https://youtu.be/9zTCXiUVAek',  
-  'https://youtu.be/LRYgwdOfHb4',
+  'https://www.youtube.com/embed/NW-71kZtq6w',
+  'https://www.youtube.com/embed/9zTCXiUVAek',  
+  'https://www.youtube.com/embed/LRYgwdOfHb4',
   'https://www.youtube.com/embed/9zTCXiUVAek',
   ]
 
