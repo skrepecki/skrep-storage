@@ -1,5 +1,10 @@
 var SKREP_STORAGE = [
       {
+        title: 'Залужный и крыса',
+        description: '"Небо, поле, Залужный и крыса" Семён Скрепецкий. Живопись. Масло, холст. 70/50 см. "Sky, field, Zaluzhny and the rat" Semyon Skrepetsky. Painting. Oil, canvas. 70/50 cm',
+        image: 'Залужный.webp'
+      },
+      {
         title: 'Полёт',
         description: `"Полёт." Семён Скрепецкий. Живопись. Масло холст. 110/80 см.`,
         image: 'полет.jpg'
