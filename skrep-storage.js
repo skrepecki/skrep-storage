@@ -1,8 +1,18 @@
 var SKREP_STORAGE = [
       {
+        title: '¿Хочешь меня?',
+        description: '',
+        image: 'nalgas.jpg'
+      },
+      {
         title: 'Залужный и крыса',
         description: '"Небо, поле, Залужный и крыса" Семён Скрепецкий. Живопись. Масло, холст. 70/50 см. "Sky, field, Zaluzhny and the rat" Semyon Skrepetsky. Painting. Oil, canvas. 70/50 cm',
         image: 'Залужный.webp'
+      },
+      {
+        title: 'Мой мир',
+        description: '',
+        image: 'mir.png'
       },
       {
         title: 'Полёт',
