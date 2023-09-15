@@ -1,6 +1,6 @@
 var SKREP_STORAGE = [
       {
-        title: '¿Хочешь меня?',
+        title: '¿Хочешь?',
         description: '',
         image: 'nalgas.jpg'
       },
