@@ -1480,4 +1480,10 @@ P.S. По факту хрен получится на росии навести 
     }
 ]
 
-SKREP_STORAGE  = SKREP_STORAGE.reverse()
+if(window.location.href.includes("skrepecki"){
+      
+} else {
+      SKREP_STORAGE  = SKREP_STORAGE.reverse()
+}
+
+// SKREP_STORAGE  = SKREP_STORAGE.reverse()
