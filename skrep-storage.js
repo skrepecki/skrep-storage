@@ -1,4 +1,9 @@
 var SKREP_STORAGE = [
+       {
+        title: 'ilon mask pidor',
+        description: 'ilon mask pidoras илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина,',
+        image: 'ilon-mask-pidoras.jpg'
+      },
       {
         title: 'россия 2028',
         description: 'россия 2028',
