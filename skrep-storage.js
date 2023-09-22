@@ -1,6 +1,6 @@
 var SKREP_STORAGE = [
        {
-        title: 'ilon mask pidor',
+        title: 'ilon mask',
         description: 'ilon mask pidoras илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина,',
         image: 'ilon-mask-pidoras.jpg'
       },
