@@ -1,5 +1,10 @@
 var SKREP_STORAGE = [
       {
+        title: 'россия 2028',
+        description: 'россия 2028',
+        image: 'rossiya-2028-russkie-juilovci.jpg'
+      },
+      {
         title: 'semen dementiev',
         description: 'semen-dementiev МУДАК',
         image: 'semen-dementiev.jpg'
