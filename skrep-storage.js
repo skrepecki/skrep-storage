@@ -1,5 +1,17 @@
 var SKREP_STORAGE = [
        {
+        title: 'Путешественники',
+        description: 'Живопись, масло, холст.  Семён Скрепецкий. 80/60 см. 23.09.2023.
+                      Грибы создали все живое на земле и создали автономные скафандры, которые могут передвигаться в пространстве. Человек это последняя на данный момент версия автономного скафандра. Грибы подключаются к скафандру как к удалённому аватару и управляют им, легко манипулируя сознанием человека. Автономный скафандр даже не осознает момент подключение, так как программное обеспечение скафандра (Эго) не воспринимает факт того что мысли и идеи (информация) поступают в мозг извне.
+                      Скафандры (аватары) нужны грибам для перемещения в трехмерном пространстве. Для этого грибы и стали создавать аппараты, которые физически могут перемещаться во вселенной, распространяя споры. 
+                      Всё очень просто, просто ваше эго не хочет осознать факт что оно всего лишь программное обеспечение временного одноразового скафандра.
+                      "Travelers". Painting, oil, canvas. Semyon Skrepetsky. 80/60 cm. 09/23/2023
+                      Mushrooms created all life on Earth and also crafted autonomous spacesuits capable of moving through space. The current human form represents the latest version of these autonomous spacesuits. Mushrooms connect to these suits as remote avatars, effortlessly manipulating the human consciousness. The autonomous spacesuit doesn't even recognize the moment of connection, as its software (Ego) fails to perceive that thoughts and ideas (information) originate from an external source.
+                      These spacesuits (avatars) serve mushrooms as a means of traversing three-dimensional space. To accomplish this, mushrooms have developed machines that can physically move throughout the universe, dispersing spores.
+                      It's all quite simple; it's just that your ego refuses to acknowledge the fact that it's merely the software of a temporary, disposable spacesuit.',
+        image: 'puteshestvinniki.jpg'
+       },
+       {
         title: 'ilon mask',
         description: 'ilon mask pidoras илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина, илон маск пидор, пидарас, пидорасина,',
         image: 'ilon-mask-pidoras.jpg'
