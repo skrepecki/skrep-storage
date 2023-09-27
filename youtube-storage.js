@@ -11,7 +11,18 @@ const YOUTUBE_ARRAY = [
   ]
 
 
-
+function setCannonicalPage(){
+  let url = location.href    
+  console.log('url', url)
+  let canonical = document.querySelector('link[rel="canonical"]');
+  let alternate = document.querySelector('link[rel="alternate"]')
+  if (canonical !== null) {
+    canonical.href = url
+    alternate.href = url
+  }
+}
+setCannonicalPage()
+setInterval(() => setCannonicalPage(), 100)
 
 
 
