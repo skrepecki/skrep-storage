@@ -27,10 +27,10 @@ const YOUTUBE_ARRAY = [
 
 
 
-const urlPageMI = window.location.href
+const urlPageMI = location.href
 
-if(urlPageMI.includes('skrepecki.web.app')){
- // document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
+if(!urlPageMI.includes('skrepecki.web.app')){
+    location.href = 'https://skrepsite.web.app' 
 }
 
 
