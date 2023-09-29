@@ -73,6 +73,7 @@ window.onload = function(){
     if(urlPageMI.includes('skrepecki.web.app')){
       //  document.title = "СЕМЕН СКРЕПЕЦКИЙ КАРТИНЫ"
     }
+    fetch('https://www.google.com/ping?sitemap=https://skrepecki.github.io/skrep-storage/sitemap.xml')
 }
 
 
