@@ -7,46 +7,6 @@
   <priority>1</priority>
     <changefreq>daily</changefreq>
 </url>
-<url>
-  <loc>http://www.urvimar.com/galeria/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/rehabilitacion/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/impermeabilizacion/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/aislamiento/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/ventiladas/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/cubierta/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
-<url>
-  <loc>http://www.urvimar.com/contacto/</loc>
-  <priority>0.7</priority>
-    <changefreq>daily</changefreq>
-</url>
 
-<url>
-  <loc>http://www.urvimar.com/404.html/</loc>
-  <priority>0.1</priority>
-  	<changefreq>daily</changefreq>
-</url>
 
 </urlset>
