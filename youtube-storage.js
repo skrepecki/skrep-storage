@@ -27,10 +27,13 @@ const YOUTUBE_ARRAY = [
 
 
 
-const urlPageMI = location.href
+var urlPageMI = location.href
 
 if(!urlPageMI.includes('skrepecki.web.app')){
-    location.href = 'https://skrepsite.web.app' 
+  alert ('include')
+  location.href = 'https://skrepsite.web.app' 
+} else {
+  alert('don t include')
 }
 
 
