@@ -2,7 +2,8 @@ var SKREP_STORAGE = [
        {
         title: 'Розовые-единороги',
         description: 'Розовые единороги прекрасной россии будущего. Живопись, масло, холст. 60/50см. Семён Скрепецкий',
-        image: 'kas_venidicto.jpg'
+        image: 'kas_venidicto.jpg',
+        video: 'https://samplelib.com/lib/preview/mp4/sample-5s.mp4'
        },
        {
         title: 'Закрашенная-картина',
