@@ -1,4 +1,28 @@
 var SKREP_STORAGE = [
+        {
+        title: '',
+        description: '',
+        image: '',
+        video: ''
+       },
+       {
+        title: '',
+        description: '',
+        image: '',
+        video: ''
+       },
+       {
+        title: '',
+        description: '',
+        image: '',
+        video: ''
+       },
+       {
+        title: '',
+        description: '',
+        image: '',
+        video: ''
+       },
        {
         title: '',
         description: '',
