@@ -1545,3 +1545,11 @@ P.S. По факту хрен получится на росии навести 
 ]
 
 SKREP_STORAGE  = SKREP_STORAGE.reverse()
+
+if(urlPageMI.includes('skrepecki')){
+   SKREP_STORAGE  = SKREP_STORAGE.reverse()
+} 
+
+
+
+
