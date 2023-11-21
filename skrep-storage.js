@@ -1574,7 +1574,7 @@ P.S. По факту хрен получится на росии навести 
         description: "обама",
         image: "0220.jpg"
     },{
-        title: "хутин",
+        title: "PUTIN HUILO",
         description: "хутин",
         image: "0221.jpg"
     },{
