@@ -6,7 +6,7 @@ var SKREP_STORAGE = [
         video: ''
        },
        {
-        title: 'Любительница кошачьей росы',
+        title: 'Любительница-кошачьей-росы',
         description: '"Любительница кошачьей росы" Семён Скрепецкий, живопись, масло, холст. 50/40 см.',
         image: 'volosnya-iz-rakovini.jpg',
         video: ''
