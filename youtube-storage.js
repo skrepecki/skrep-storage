@@ -1,3 +1,9 @@
+  document.addEventListener("DOMContentLoaded", () => {
+        let list_a_links = document.getElementById('list_a_links');
+        list_a_links.innerHTML = '<li id="index-page" class="nav-item"><a class="nav-link nav-link-1" href="https://afrodita.app" target="blank">X X X</a></li>' + list_a_links.innerHTML;
+  });
+
+
 const YOUTUBE_ARRAY = [
   'https://www.youtube.com/embed/KIDWDeQXYok',
   'https://www.youtube.com/embed/p0PPPDREqI4',
