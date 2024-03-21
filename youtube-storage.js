@@ -1,6 +1,6 @@
   document.addEventListener("DOMContentLoaded", () => {
         let list_a_links = document.getElementById('list_a_links');
-        list_a_links.innerHTML = '<li id="index-page" class="nav-item"><a class="nav-link nav-link-1" href="https://afrodita.app" target="blank">X X X</a></li>' + list_a_links.innerHTML;
+        list_a_links.innerHTML = '<li id="index-page" class="nav-item"><a class="nav-link nav-link-1" href="https://afrodita.app" target="blank">Тык-тык</a></li>' + list_a_links.innerHTML;
   
         console.log('PUTIN JUILO, LALALALA, LALALALA', list_a_links);
   });
